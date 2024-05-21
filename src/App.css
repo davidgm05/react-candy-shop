@@ -7,6 +7,47 @@ body{
   background-size: cover;
 }
 
+.golosinas-importadas{
+  background-image: url('./assets/golosinas-importadas.png');
+  background-size: cover;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 10px 40px 10px 40px;
+  box-shadow: 5px 5px 15px rgba(252, 3, 157, 0.781);
+  width: 300px;
+  height: 300px;
+  transition: width 0.3s ease, height 0.3s ease;
+  
+}
+
+.ediciones-limitadas{
+  background-image: url('./assets/ediciones-limitadas.png');
+  background-size: cover;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 10px 40px 10px 40px;
+  box-shadow: 5px 5px 15px rgba(252, 3, 157, 0.781);
+  width: 300px;
+  height: 300px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.nuestras-colaboraciones{
+  background-image: url('./assets/nuestras-colaboraciones.png');
+  background-size: cover;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 10px 40px 10px 40px;
+  box-shadow: 5px 5px 15px rgba(252, 3, 157, 0.781);
+  width: 300px;
+  height: 300px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.second-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+}
+
 .container-title-description{
 display: flex;
 flex-direction: column;
@@ -14,8 +55,8 @@ flex-direction: column;
 .description{
   padding-bottom: 10px;
   font-family: "Lobster Two", sans-serif;
-  color: #e9089e;
-  text-shadow: 2px 2px 4px rgba(255, 254, 254, 0.5);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(33, 32, 32, 0.5);
   font-weight: 800;
   font-stretch: expanded;
   font-size: 23px;
@@ -29,7 +70,7 @@ border-radius: 15px;
 background-color: rgba(249, 104, 152, 0.673);
 }
 .title{
-  color: rgb(244, 240, 243);
+  color: rgb(255, 255, 255);
   font-family: "Pacifico", cursive;
   font-size: 90px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -41,38 +82,20 @@ background-color: rgba(249, 104, 152, 0.673);
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+
+.golosinas-importadas:hover {
+  width: 400px;
+  height: 400px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ediciones-limitadas:hover {
+  width: 400px;
+  height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nuestras-colaboraciones:hover {
+  width: 400px;
+  height: 400px;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
